@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Large binary/archive files
+*.tar
+*.tar.gz
+*.zip
+files.zip
+
+# Model checkpoints (download separately)
+logs/
+**/logs/
+checkpoint-*.tar
+
+# Student package (large)
+student_package/
+
+# Images/outputs
+*.png
+*.jpg
+ik_demo_output.png
+
+# MuJoCo logs
+MUJOCO_LOG.TXT
+
+# Submodule with its own repo (use as submodule or clone separately)
+graspnet-baseline/
+
+# Misc
+.DS_Store
+
+# Sub-project with its own git repo (clone from gitee separately)
+manipulator_grasp/
